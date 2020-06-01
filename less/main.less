@@ -1,0 +1,75 @@
+.mainImage {
+    width: 80%;
+    margin-left: 125px;
+    margin-top: 30px;
+    border-style: solid;
+    border-color: @yellow;
+    border-radius: 15px;
+    border-width: 5px;
+}
+
+.backgroundPage {
+    background-color: @white;
+};
+
+h1 {
+    margin-left: 50%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: xx-large;
+    color: @white;
+}
+
+p {
+    font-size: xx-large;
+    color: @white;
+    background-color: @black;
+    margin: 0 100px 0 130px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    opacity: 82%;
+    border-radius: 10%;
+    .layout(center, center);
+    font-family: 'Tenali Ramakrishna', sans-serif;
+}
+
+.button {
+    // margin-left: 50%;
+    // margin-top: 1%;
+    // margin-bottom: 1%;
+    .button();
+    font-family: 'Tenali Ramakrishna', sans-serif;
+}
+
+.btnBackground {
+    background-color: @white;
+}
+
+.mainImage {
+    @media @mobile {
+        margin-left: 105px ;
+        width: 60%;
+        margin-top: 20px;
+    }
+}
+
+p {
+    @media @mobile {
+        margin-top: -30px;
+        border-radius: 20%;
+    }
+}
+
+// .button {
+//     @media @mobile {
+//         display: flex;
+//         justify-content: center;
+//     }
+// }
+
+.btnBackground {
+    @media @mobile {
+         margin-right: 50px;
+    }
+}
